@@ -1,0 +1,142 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/* Header Styles */
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section Styles */
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    animation: changeBackground 9s infinite;
+    margin-top: 60px; /* Adds space below the fixed header */
+}
+
+/* Hero Content */
+.hero-content h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.hero-content .btn, .btn-outline {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background: #ff5722;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 2px solid #fff;
+}
+
+/* Keyframes for Changing Background */
+@keyframes changeBackground {
+    0% {
+        background-image: url('https://sambhramaa.com/wp-content/uploads/2021/04/South-Indian-wedding-SanaSambhramaa.jpg');
+    }
+    33% {
+        background-image: url('https://images.pexels.com/photos/169190/pexels-photo-169190.jpeg');
+    }
+    66% {
+        background-image: url('https://images.pexels.com/photos/177598/pexels-photo-177598.jpeg');
+    }
+    100% {
+        background-image: url('https://sambhramaa.com/wp-content/uploads/2021/04/South-Indian-wedding-SanaSambhramaa.jpg');
+    }
+}
+
+/* Other Sections */
+.services, .contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact {
+    background: #333;
+    color: #fff;
+}
+
+.contact a {
+    color: #ff5722;
+    text-decoration: none;
+}
+
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+
+
+
+
+ 0% {
+        background-image: url('https://sambhramaa.com/wp-content/uploads/2021/04/South-Indian-wedding-SanaSambhramaa.jpg');
+    }
+    33% {
+        background-image: url('https://www.letsannounce.com/cdn/shop/articles/Southasian_Wedding_Photographer_Indian_Wedding_Photographer_Arizona_Wedding_Photographer_Southindian_Wedding_Photographer_RS_038_2048x.jpg?v=1455784498');
+    }
+    66% {
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/c4/South_Indian_wedding_2.jpg');
+    }
+    100% {
+        background-image: url('https://image7.photobiz.com/8912/13_20220310103739_10094433_xlarge.jpg');
+    }
